@@ -43,7 +43,7 @@ body{
 
     display: flex;
     justify-content: center;
-    background-image: url(header3.jpg);
+    background-image: url(../img/header3.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 1025px;
@@ -188,7 +188,7 @@ li>a:hover{
 
 footer{
     background-color: red;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 1px 1px black;
     margin: 20px auto;
 }
 
@@ -204,24 +204,44 @@ footer{
 .footer-box2,
 .footer-box3{
     padding: 10px;
-    border: 5px solid white;
+    /* border: 5px solid white; */
     border-radius:10;
 
 }
 
 .footer-box1{
-    
+    text-align: center;
 }
+
 .footer-box1>a{
     padding: 20px;
     display: inline;
-}
     
-.footer-box2>a{
-    display: block;
+    font-size: 40px;
 }
+
+.footer-box1>h2{
+    padding: 0;
+    padding-bottom: 20px;
+    margin: 0;
+    color: black;
+}
+.footer-box2{
+    
+}
+.footer-box2>h2{
+    padding: 0;
+    padding-bottom: 20px;
+    margin: 0;
+    color: black;
+}   
+
 .footer-box3{
+    padding: 0;
+    margin: 0;
     grid-column: 1/3;
     text-align: center;
+    text-decoration: black;
+    color: black;
 
 }
