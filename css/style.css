@@ -43,7 +43,7 @@ body{
 
     display: flex;
     justify-content: center;
-    background-image: url(../header3.jpg);
+    background-image: url(\\header3.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 1025px;
